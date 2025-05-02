@@ -4,7 +4,7 @@ import Image from '../assets/Apple.png';
 import Icon from '../assets/icon.jpg';
 //images
 import Mac from '../assets/Mac.png';
-import Phone from '../assets/iPhone.png';
+import Phone from '../assets/IPhone.png';
 import Ipad from '../assets/iPad.png';
 import Watch from '../assets/Watch.png';
 import Pods from '../assets/Pods.png';
