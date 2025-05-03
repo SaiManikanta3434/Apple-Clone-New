@@ -41,53 +41,32 @@ const section = () => {
     
   return (
     <section className='bg-gray-100 pt-20'>
-        <div className='flex gap-6 px-4 overflow-x-auto scrollbar-hide md:flex-col lg:flex-row sm:flex-col '>
-            
-            {/* First box */}
-            <div className=' hover:shadow-xl/40 rounded-lg bg-black w-md h-auto lg:ml-30 md:ml-0 sm:ml-0'>
-                <div className='px-8 pt-10'>
-                    <p className='text-white text-2xl font-SFmedium'>iPhone 16 Pro<p className='bg-gradient-to-r from-blue-700 to-red-600 via-pink-600 bg-clip-text text-transparent text-lg'>Apple Intelligence<span className='align-super text-[10px] ml-0.5'>∆</span><p className='text-lg text-white'>From ₹119900.00<span className='align-super ml-0.5'>‡</span></p></p></p>
-                </div>
-                <div>
-                    <img src={Pro} alt='phone' className='rounded-lg w-full h-72'/>
-                </div>
-            </div>
-         
-         {/* second box */}
+        <div className='flex gap-4 pl-33 bg-gray-100 lg:flex-row md:flex-col sm:flex-col '>
+                  {/* One */}
+                    <div className='hover:scale-105 bg-black hover:border-b-gray-400 transform transition-transform duration-300 hover:shadow-xl/40 w-6xl rounded-2xl overflow-hidden relative shadow-md'>
+                        <img src={Pro} alt='Man' className='w-full h-full object-scale-down pt-20'/>
+                        <div className='absolute top-0 left-0 p-6 text-gray-800'>
+                        <p className='text-white text-2xl font-SFmedium'>iPhone 16 Pro<p className='bg-gradient-to-r from-blue-700 to-red-600 via-pink-600 bg-clip-text text-transparent text-lg'>Apple Intelligence<span className='align-super text-[10px] ml-0.5'>∆</span><p className='text-lg text-white'>From ₹119900.00<span className='align-super ml-0.5'>‡</span></p></p></p>
 
-            <div className='border-gray-200 border  hover:shadow-xl/40 rounded-lg bg-white w-md h-auto'>
-                <div className='px-8 pt-10'>
-                    <p className='text-black text-2xl font-SFmedium'>Apple Watch Series 10<p className='text-lg'>Thinstant Classic.<p className='text-lg text-black'>From ₹46900.00<span className='align-super ml-0.5'>‡</span></p></p></p>
+                        </div>
+                    </div>
+                    {/* Two */}
+                    <div className="hover:scale-105 hover:border-b-gray-400  transform transition-transform duration-300 hover:shadow-xl/40 w-6xl rounded-2xl overflow-hidden relative bg-white shadow-md">
+                      <img src={Store2} alt="Apple session" className="w-full h-auto object-cover"/>
+                        <div className="absolute top-0 left-0 p-6 text-gray-800">
+                        <p className='text-black text-2xl font-SFmedium'>Apple Watch Series 10<p className='text-lg'>Thinstant Classic.<p className='text-lg text-black'>From ₹46900.00<span className='align-super ml-0.5'>‡</span></p></p></p>
+ 
+                        </div>
+                    </div>
+                    {/* Three */}
+                    <div className='hover:scale-105 hover:border-b-gray-400  transform transition-transform duration-300 hover:shadow-xl/40 w-6xl rounded-2xl overflow-hidden relative bg-black shadow-md'>
+                        <img src={Store3} alt='Iphone' className='w-full h-auto object-cover'/>
+                        <div className='absolute top-0 left-0 p-6 text-gray-800'>
+                        <p className='text-black text-2xl font-SFmedium'>iPad Air<p className='bg-gradient-to-r from-blue-700 to-red-600 via-pink-600 bg-clip-text text-transparent text-lg'>Apple Intelligence<span className='align-super ml-0.5'>∆</span><p className='text-lg text-black'>From ₹46900.00<span className='align-super ml-0.5'>‡</span></p></p></p>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <img src={Store2} alt='phone' className='rounded-lg w-full h-72'/>
-                </div>
-            </div>
 
-         {/* Third box */}
-
-            <div className='border-gray-200 border hover:shadow-xl/40 rounded-lg  bg-white w-md h-auto'>
-                <div className='px-8 pt-10'>
-                    <p className='text-black text-2xl font-SFmedium'>iPad Air<p className='bg-gradient-to-r from-blue-700 to-red-600 via-pink-600 bg-clip-text text-transparent text-lg'>Apple Intelligence<span className='align-super ml-0.5'>∆</span><p className='text-lg text-black'>From ₹46900.00<span className='align-super ml-0.5'>‡</span></p></p></p>
-                </div>
-                <div>
-                    <img src={Store3} alt='phone' className='rounded-lg w-full h-72'/>
-                </div>
-            </div>
-
-        {/*Fourth Box */}
-
-            <div className='border-gray-200 border hover:shadow-xl/40 rounded-lg bg-gradient-to-b from-sky-200 to-white w-md h-auto'>
-                <div className='px-8 pt-10'>
-                   <p className='text-black text-2xl font-SFmedium'>MacBook Air<p className='bg-gradient-to-r from-blue-700 to-red-600 via-pink-600 bg-clip-text text-transparent text-lg'>Apple Intelligence<span className='align-super ml-0.5'>∆</span><p className='text-lg text-black'>From ₹46900.00<span className='align-super ml-0.5'>‡</span></p></p></p>
-                </div>
-                <div>
-                   <img src={Store4} alt='phone' className='rounded-lg w-full h-72'/>
-                </div>
-            </div>
-
-        
-        </div>
 
         <div className='pt-20 px-35'>
             <p className='text-3xl font-SFbold text-orange-600'>Accessories. <span className='text-gray-500'> Put a bow on Mother's Day</span></p>
@@ -272,6 +251,7 @@ const section = () => {
 
         
         </div>
+        
 
         
 
