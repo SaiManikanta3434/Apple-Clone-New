@@ -5,7 +5,7 @@ import Icon from '../assets/icon.jpg';
 //images
 import Mac from '../assets/Mac.png';
 import Phone from '../assets/phonee.png';
-import Ipad from '../assets/iPad.png';
+import pad from '../assets/phonee2.png';
 import Watch from '../assets/Watch.png';
 import Pods from '../assets/Pods.png';
 import Airtag from '../assets/Tag.png';
@@ -94,7 +94,7 @@ const Navbar = () => {
             <div className='flex gap-10 justify-center font-medium lg:flex-row md:flex-col sm:flex-col'>
                 <button><img src={Mac} alt='Mac' className='w-28 h-16 mb-4'/><p>Mac</p></button>
                 <button><img src={Phone} alt='Mac' className='w-28 h-16  mb-4'/><p>iPhone</p></button>
-                <button><img src={Ipad} alt='Mac' className='w-28 h-16  mb-4'/><p>iPad</p></button>
+                <button><img src={pad} alt='Mac' className='w-28 h-16  mb-4'/><p>iPad</p></button>
                 <button><img src={Watch} alt='Mac' className='w-28 h-16 mb-4'/><p>Apple Watch</p></button>
                 <button><img src={Pods} alt='Mac' className='w-28 h-16 mb-4'/><p>AirPods</p></button>
                 <button><img src={Airtag} alt='Mac' className='w-28 h-16 mb-4'/><p>AirTag</p></button>
