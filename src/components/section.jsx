@@ -36,7 +36,7 @@ const section = () => {
         'bg-green-200',
         'bg-red-400',
         'bg-yellow-300',
-        'bg-indigo-700',
+        'bg-indigo-600',
       ];
     
   return (
