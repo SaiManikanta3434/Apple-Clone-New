@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import 'boxicons/css/boxicons.min.css';
 import Image from '../assets/Apple.png';
 import Icon from '../assets/icon.jpg';
@@ -17,13 +17,19 @@ import Access from '../assets/Accessories.png';
 
 
 const Navbar = () => {
+    const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <container>
-        <div className='flex gap-12 justify-center border border-gray-100 bg-gray-100  py-1.5'>
+    <div className='border border-gray-100 bg-gray-100 py-1.5 px-4'>
+        <div className='flex lg:gap-12 sm:gap-4 md:gap-6 lg:justify-center md:justify-between sm:justify-between border border-gray-100 bg-gray-100  py-1.5'>
             <div>
                 <a href='#' className='text-xl'><i class='bx bxl-apple'></i></a>
             </div>
-            <div className='flex gap-8 text-xs font-SFregular text-gray-700 pt-2'>
+            <button
+          className='text-2xl md:hidden'
+          onClick={() => setMenuOpen(!menuOpen)}>
+          <i class='bx bx-menu'></i>
+        </button>
+            <div className='hidden md:flex lg:flex gap-8 sm:gap-6 md:gap-8 text-xs font-SFregular text-gray-700 pt-2'>
                 <a href='#' className='tracking-widest'>Store</a>
                 <a href='#' className='tracking-widest'>Mac</a>
                 <a href='#' className='tracking-widest'>iPad</a>
@@ -35,6 +41,20 @@ const Navbar = () => {
                 <a href='#' className='tracking-widest'>Accessories</a>
                 <a href='#' className='tracking-widest'>Support</a>
             </div>
+            {menuOpen && (
+        <div className='flex flex-col gap-2 mt-3 md:hidden text-sm text-gray-700'>
+          <a href='#'>Store</a>
+          <a href='#'>Mac</a>
+          <a href='#'>iPad</a>
+          <a href='#'>iPhone</a>
+          <a href='#'>Watch</a>
+          <a href='#'>AirPods</a>
+          <a href='#'>TV & Home</a>
+          <a href='#'>Entertainment</a>
+          <a href='#'>Accessories</a>
+          <a href='#'>Support</a>
+        </div>
+      )}
             <div>
                 <button className='text-lg pt-1'><i class='bx bx-search text-gray-600'></i></button>
             </div>
@@ -70,8 +90,8 @@ const Navbar = () => {
             </div>
         </div>
 
-        <div className='justify-center bg-gray-100 pt-24 pl-40 pr-none'>
-            <div className='flex gap-10 justify-center font-medium'>
+        <div className='justify-center bg-gray-100 pt-24 pl-40 pr-none '>
+            <div className='flex gap-10 justify-center font-medium lg:flex-row md:flex-col sm:flex-col'>
                 <button><img src={Mac} alt='Mac' className='w-28 h-16 mb-4'/><p>Mac</p></button>
                 <button><img src={Phone} alt='Mac' className='w-28 h-16  mb-4'/><p>iPhone</p></button>
                 <button><img src={Ipad} alt='Mac' className='w-28 h-16  mb-4'/><p>iPad</p></button>
@@ -86,11 +106,11 @@ const Navbar = () => {
         </div>
 
         <div className='pt-20 bg-gray-100'>
-            <div className='text-3xl font-SFsemibold pl-40'>
+            <div className='text-3xl font-SFsemibold sm:pl-10 md:pl-10 lg:pl-40'>
                 <p>The latest.<span className='text-gray-500'>Take a look at what's new right now.</span></p>
             </div>
         </div>
-    </container>
+    </div>
   )
 }
 

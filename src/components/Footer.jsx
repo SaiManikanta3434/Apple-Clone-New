@@ -15,7 +15,7 @@ const Footer = () => {
             <a className='border border-black rounded-full px-5 py-2 text-md font-SFthin'>Your Saves <span className='pt-4'>↗</span> </a>
         </div>
 
-        <div className='pt-20 pl-40 pr-60 font-SFlight text-xs text-gray-600 tracking-wider'>
+        <div className='pt-20 lg:pl-40 md:pl-0 sm:px-0 lg:px-60 font-SFlight text-xs text-gray-600 tracking-wider'>
             <p className='pb-5'>∆ Apple Intelligence is available in beta on all iPhone 16 models, iPhone 15 Pro, iPhone 15 Pro Max, iPad mini (A17 Pro), and iPad and Mac models with M1 and later, with Siri and device language set to Chinese (Simplified), English (Australia, Canada, India, Ireland, New Zealand, Singapore, South Africa, UK or US), French, German, Italian, Japanese, Korean, Portuguese (Brazil) or Spanish, as part of an iOS 18, iPadOS 18 and macOS Sequoia software update, with more languages coming over the course of the year, including Vietnamese. Some features may not be available in all regions or languages.</p>
             <p className='pb-5'>◊◊ Monthly pricing is after purchase using EMI with qualifying cards at 15.99% p.a. over a 12‑month tenure. Monthly pricing is rounded to the nearest rupee. Exact pricing will be provided by your card issuer, subject to your card issuer’s terms and conditions.</p>
             <p >Representative example:</p>
@@ -37,7 +37,7 @@ const Footer = () => {
             <a className='flex'><i class='bx bxl-apple text-2xl'></i><i class=' bx bxs-chevron-right text-2xl text-gray-500 font-SFlight'></i><p className='font-SFlight text-gray-500'>Apple Store Online</p></a>
         </div>
 
-        <div className='flex gap-20 pl-38'>
+        <div className='flex gap-20 md:pl-10 sm:pl-10 lg:pl-38'>
             <div className='font-SFlight text-xs text-gray-600 tracking-wider '>
                 <div className='font-SFmedium pb-3'>Shop and Learn</div>
 
@@ -114,19 +114,20 @@ const Footer = () => {
         </div>
         </div>
 
-        <div className='font-SFlight text-xs tracking-wider pt-20 pl-38 text-gray-500'>
+        <div className='font-SFlight text-xs tracking-wider pt-20 md:pl-0 sm:pl-0 lg:pl-38 text-gray-500'>
             <p>More ways to shop:<span className='underline text-blue-600'>Find an Apple Store</span>or <span className='underline text-blue-600'>other retailer</span> near you. Or call 000800 040 1966.</p>
 
            
         </div>
 
-        <div className='pl-38 pr-60'>
+        <div className='lg:pl-38 lg:pr-60 md:px-10 sm:px-10'>
         <hr className="my-4 border-t border-gray-300" />
         </div>
 
         
 
-        <div className='flex gap-60 px-20 font-SFlight text-xs tracking-wider pl-38 pb-20 text-gray-500 '>
+        <div className='flex gap-60 px-20 font-SFlight text-xs tracking-wider lg:pl-38 md:pl-0 sm:pl-0 pb-20 text-gray-500 '>
+
             <p>Copyright © 2025 Apple Inc. All rights reserved.<span>Privacy Policy | Terms of Use | Sales Policy | Legal | site Map</span></p>
             <p>India</p>
         </div>

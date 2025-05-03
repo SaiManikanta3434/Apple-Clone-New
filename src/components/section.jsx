@@ -41,10 +41,10 @@ const section = () => {
     
   return (
     <section className='bg-gray-100 pt-20'>
-        <div className='flex gap-6 px-4 overflow-x-auto scrollbar-hide'>
+        <div className='flex gap-6 px-4 overflow-x-auto scrollbar-hide md:flex-col lg:flex-row sm:flex-col '>
             
             {/* First box */}
-            <div className=' hover:shadow-xl/40 rounded-lg bg-black w-md h-auto ml-30'>
+            <div className=' hover:shadow-xl/40 rounded-lg bg-black w-md h-auto ml-30 md:ml-0 sm:ml-0'>
                 <div className='px-8 pt-10'>
                     <p className='text-white text-2xl font-SFmedium'>iPhone 16 Pro<p className='bg-gradient-to-r from-blue-700 to-red-600 via-pink-600 bg-clip-text text-transparent text-lg'>Apple Intelligence<span className='align-super text-[10px] ml-0.5'>∆</span><p className='text-lg text-white'>From ₹119900.00<span className='align-super ml-0.5'>‡</span></p></p></p>
                 </div>
@@ -96,10 +96,10 @@ const section = () => {
 
 {/*Down one */}
 
-        <div className='flex gap-6 px-4 pt-5'>
+        <div className='flex gap-6 px-4 pt-5 md:flex-col sm:flex-col lg:flex-row md:justify-center sm:justify-center'>
             
             {/* First box */}
-            <div className='hover:shadow-xl/40 rounded-lg hover:scale-105 hover:border-b-gray-400  transform transition-transform duration-300 bg-white w-lvh h-auto ml-30'>
+            <div className='hover:shadow-xl/40 md:justify-center sm:justify-center rounded-lg hover:scale-105 hover:border-b-gray-400  transform transition-transform duration-300 bg-white w-lvh h-auto lg:ml-30 md:ml-0 sm:ml-0'>
                 <div className='px-8 pt-5'>
                     <p className='text-gray-400 text-xs font-sans'>MOTHER'S DAY<p className='text-black text-3xl font-SFsemibold'>Pairs Perfectly with Mom<p className='text-lg text-white'>From ₹119900.00<span className='align-super ml-0.5'>‡</span></p></p></p>
                 </div>
@@ -203,14 +203,14 @@ const section = () => {
   {/* Second one */}
 
     <div className='pt-20'>
-        <p className='text-3xl font-SFsemibold pl-35 text-orange-600'>Personalisation.<span className='text-gray-600'> Add something that really says Mom.</span></p>
+        <p className='text-3xl font-SFsemibold lg:pl-35 md:pl-0 text-orange-600'>Personalisation.<span className='text-gray-600'> Add something that really says Mom.</span></p>
     </div>
 
 
-    <div className='flex gap-6 px-4 pt-5'>
+    <div className='flex gap-6 px-4 pt-5 md:flex-col sm:flex-col lg:flex-row'>
             
             {/* First box */}
-            <div className='hover:shadow-xl/40 rounded-lg hover:scale-105 hover:border-b-gray-400  transform transition-transform duration-300 bg-white w-lvh h-auto ml-30'>
+            <div className='hover:shadow-xl/40 rounded-lg hover:scale-105 hover:border-b-gray-400  transform transition-transform duration-300 bg-white w-lvh h-auto lg:ml-30 md:ml-0 sm:ml-0'>
                 <div className='px-8 pt-10'>
                     <p className='text-gray-400 text-xs font-sans'>FREE ENGRAVING<p className='text-black text-3xl font-SFsemibold'>Truly just for them<p className='text-lg text-white'><span className='align-super ml-0.5'></span></p></p></p>
                 </div>
@@ -275,25 +275,25 @@ const section = () => {
 
         
 
-        <div className='pt-10 pl-33'>
+        <div className='pt-10 lg:pl-33 md:pl-0 sm:pl-0'>
             <p className='text-3xl font-SFsemibold text-orange-600 '>The Apple Store difference. <span className='text-gray-600'>Even more reasons to shop with us.</span></p>
         </div>
         
-        <div className='flex gap-4 pt-20 pl-33 pb-20'>
+        <div className='flex gap-4 pt-20 lg:pl-33 sm:pl-0 md:pl-0 md:flex-col sm:flex-col lg:flex-row pb-20 '>
 
-        <div className=' transform transition-transform duration-300 hover:scale-105 hover:shadow-xl/30 bg-white rounded-lg w-80 h-60 pt-4 pl-6 pb-10 pr-8'>
+        <div className=' transform transition-transform duration-300 hover:scale-105 hover:shadow-xl/30 bg-white rounded-lg w-80 h-60 pt-4 pl-6 pb-10 pr-8 md:ml-10 sm:ml-10'>
             <a href='#'><img src={PicOne} alt='Icon' className='w-18 h-12'/><p className='text-2xl font-SFsemibold'>No Cost EMI. <span className='align-super font-SFlight text-'>§</span> Plus<p> Instant Cashback.<span className='align-super'>§§</span></p></p></a>
         </div>
 
-        <div className=' transform transition-transform duration-300 hover:scale-105 hover:shadow-xl/30 bg-white rounded-lg w-80 h-60 pt-4 pl-6 pb-10 pr-8'>
+        <div className=' transform transition-transform duration-300 hover:scale-105 hover:shadow-xl/30 bg-white rounded-lg w-80 h-60 pt-4 pl-6 pb-10 pr-8 md:ml-10 sm:ml-10'>
             <a href='#'><img src={Pictwo} alt='Icon' className='w-18 h-12'/><p className='text-2xl font-SFsemibold text-orange-500'>Enjoy free delivery, or<p >easy pickup<span className='text-black'> from an</span></p><p className='text-black'>Apple Store.</p></p></a>
         </div>
 
-        <div className=' transform transition-transform duration-300 hover:scale-105 hover:shadow-xl/30 bg-white rounded-lg w-80 h-60 pt-4 pl-6 pb-10 pr-8'>
+        <div className=' transform transition-transform duration-300 hover:scale-105 hover:shadow-xl/30 bg-white rounded-lg w-80 h-60 pt-4 pl-6 pb-10 pr-8 md:ml-10 sm:ml-10'>
             <a href='#'><img src={Picthree} alt='Icon' className='w-18 h-12'/><p className='text-2xl font-SFsemibold text-orange-500 pt-2'>Customise their Mac <p className='text-black'>with<span className='text-orange-500'>everything from</span></p>graphics <span className='text-black'>to</span> Storage</p></a>
         </div>
 
-        <div className=' transform transition-transform duration-300 hover:scale-105 hover:shadow-xl/30 bg-white rounded-lg w-80 h-60 pt-4 pl-6 pb-10 pr-8'>
+        <div className=' transform transition-transform duration-300 hover:scale-105 hover:shadow-xl/30 bg-white rounded-lg w-80 h-60 pt-4 pl-6 pb-10 pr-8 md:ml-10 sm:ml-10'>
             <a href='#'><img src={Picfour} alt='Icon' className='w-15 h-12'/><p className='text-2xl font-SFsemibold'>No Cost EMI. <span className='align-super font-SFlight text-'>§</span> Plus<p> Instant Cashback.<span className='align-super'>§§</span></p></p></a>
         </div>
 

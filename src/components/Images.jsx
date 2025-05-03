@@ -13,12 +13,12 @@ const Images = () => {
   return (
     <container>
 
-        <div className='pl-34 bg-gray-100 pb-10'>
+        <div className='lg:pl-34 md:pl-0 sm:pl-0 bg-gray-100 pb-10'>
             <p className='text-3xl font-SFsemibold'>Help is here.<span className='text-gray-500'>Whenever and however you need it.</span></p>
         </div>
 
 
-        <div className='flex gap-4 pl-33 bg-gray-100'>
+        <div className='flex gap-4 pl-33 bg-gray-100 lg:flex-row md:flex-col sm:flex-col '>
           {/* One */}
             <div className='hover:scale-105 hover:border-b-gray-400  transform transition-transform duration-300 hover:shadow-xl/40 max-w-md rounded-2xl overflow-hidden relative bg-white shadow-md'>
                 <img src={Man} alt='Man' className='w-full h-full object-cover'/>
@@ -51,7 +51,7 @@ const Images = () => {
         </div>
 
 
-        <div className='flex gap-6 pl-33 bg-gray-100'>
+        <div className='flex gap-6 pl-33 bg-gray-100 lg:flex-row md:flex-col sm:flex-col'>
           {/* One */}
             <div className='hover:scale-105 hover:border-b-gray-400  transform transition-transform duration-300 hover:shadow-xl/40 max-w-md rounded-2xl overflow-hidden relative bg-white shadow-md'>
                 <img src={Lone} alt='Man' className='w-full h-full object-cover'/>
