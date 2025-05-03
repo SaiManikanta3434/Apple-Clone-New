@@ -44,7 +44,7 @@ const section = () => {
         <div className='flex gap-6 px-4 overflow-x-auto scrollbar-hide md:flex-col lg:flex-row sm:flex-col '>
             
             {/* First box */}
-            <div className=' hover:shadow-xl/40 rounded-lg bg-black w-md h-auto ml-30 md:ml-0 sm:ml-0'>
+            <div className=' hover:shadow-xl/40 rounded-lg bg-black w-md h-auto lg:ml-30 md:ml-0 sm:ml-0'>
                 <div className='px-8 pt-10'>
                     <p className='text-white text-2xl font-SFmedium'>iPhone 16 Pro<p className='bg-gradient-to-r from-blue-700 to-red-600 via-pink-600 bg-clip-text text-transparent text-lg'>Apple Intelligence<span className='align-super text-[10px] ml-0.5'>∆</span><p className='text-lg text-white'>From ₹119900.00<span className='align-super ml-0.5'>‡</span></p></p></p>
                 </div>
