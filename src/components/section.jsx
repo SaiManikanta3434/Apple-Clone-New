@@ -9,7 +9,7 @@ import Prime from '../assets/Mag.jpeg';
 import HP from '../assets/HP.jpeg';
 import Decor from '../assets/Decor.jpeg';
 import PD from '../assets/Pd1.jpeg';
-import PDT from '../assets/Pd2.jpeg';
+import PDT from '../assets/pd2.jpeg';
 import Pencil from '../assets/Pencil.jpeg';
 import PicOne from '../assets/Picone.png';
 import Pictwo from '../assets/Pictwo.png';
